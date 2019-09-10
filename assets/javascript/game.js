@@ -24,16 +24,14 @@ document.onkeyup = function (event) {
     var userGuess = (event.key).toLowerCase()
     
     if (gameChoices.indexOf(userGuess) !== -1){
-
-        
+                
         document.getElementById("lettersGuessed").innerHTML += userGuess + ", ";
-        
-        
-        
+                       
         if (userGuess === computerGuess) {
-            wins++
+            alert("You Win!!!");
+            wins++;
             document.getElementById('wins').innerHTML = "Wins: " + wins;
-            resetGame()
+            resetGame();
         }else { 
             tries--  
             document.getElementById("tries").innerHTML = "You have " + tries + " tries left";

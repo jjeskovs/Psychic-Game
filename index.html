@@ -3,20 +3,33 @@
 
 <head>
     <meta charset="UTF-8">
+    <title>Psychic Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Psychic Game</title>
-</head>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"
+ </head>
 
 <body>
-    <h1>The Psyhic Game</h1>
-    <h2>Guess what letter I'm thinking</h2>
+    
+    
+    <div class="wrapper">
+        <section id="content">
 
-    <div id="wins" class="wins"></div>
-    <div id="losses"></div>
-    <div id="tries"></div>
-    <div> You have selected: <span id="lettersGuessed"></span></div>
-    <script type="text/javascript" src="assets/javascript/game.js"></script>
+            <h1>The Psyhic Game</h1>
+            <h2>Guess what letter I'm thinking</h2>
+            
+            <div id="wins" class="wins"></div>
+            <div id="losses"></div>
+            <div id="tries"></div>
+            <div>You have selected:</div>
+                <div id=selection><span id="lettersGuessed"></span></div>
+            <script type="text/javascript" src="assets/javascript/game.js"></script>
+        </section>
+            
+    </div>
+   
+
+
 </body>
-
 </html>
