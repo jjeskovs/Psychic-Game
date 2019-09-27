@@ -1,10 +1,16 @@
 * {
     box-sizing: border-box;
-    
+    color: beige;
 }
-/* * {
-    background-image: url("../images/background.jpeg")
-} */
+body {
+    background-image: url("../images/background.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
 .wrapper {
     height: 600px;
     margin-top: 0px;
@@ -12,8 +18,7 @@
     padding: 20px;
     text-align: center;
     padding: 0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url("../images/background.jpeg")
+   
     
 } 
 h1 {
@@ -30,18 +35,18 @@ h2 {
 
 #wins   {
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 20px;
 }
  
 #losses { 
     margin-bottom: 20px;
     padding: 10px;
-    font-size: 18px;
+    font-size: 20px;
 
 }
 #tries {
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 30px;
     font-size: 20px;
 } 
 #selection {
